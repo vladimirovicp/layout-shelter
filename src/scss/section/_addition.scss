@@ -1,0 +1,28 @@
+.addition{
+  background-color: $color-light-l;
+  padding: 8rem 0 10rem;
+
+  .wrapper{
+    width: 91.5rem;
+    display: flex;
+    gap: 3rem;
+  }
+
+  &__img{
+    width: 50.5rem;
+    height: auto;
+  }
+
+  &__title{
+
+  }
+
+  &__text{
+
+    &_min{
+      font-size: 1.2rem;
+      color:$color-dark-m;
+      line-height: 150%;
+    }
+  }
+}

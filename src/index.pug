@@ -88,15 +88,15 @@ html(lang= 'ru')
         section#about.about
             .container
                 .wrapper
+                    .about__items.about__items_first
+                        img(src=require('/src/img/about.png'), class="about__img", alt="Shelter about")
                     .about__items
-                        img(src=require('/src/img/about.png'), alt="Shelter about")
-                    .about__items
-                        h3
+                        h3.about__title
                             |About the shelter
                             br
                             |“Cozy House”
-                        p Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.
-                        p We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.
+                        p.about__text Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.
+                        p.about__text We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.
         section#our-friends.our-friends
             .container
                 h2.title
@@ -122,12 +122,12 @@ html(lang= 'ru')
             .container
                 .wrapper
                     .addition__item
-                        img(src=require('/src/img/donation-dog.png'), alt="donation dog", width=505, height=261)
+                        img(src=require('/src/img/donation-dog.png'), alt="donation dog", class="addition__img")
                     .addition__item
-                       h3 You can also<br>make a donation
-                       p Name of the bank / Type of bank account
+                       h3.addition__title You can also<br>make a donation
+                       p.addition__text  Name of the bank / Type of bank account
                        a(href="#" class="credit-card") 8380 2880 8028 8791 7435
-                       .addition__text Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                       p.addition__text_min Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.
 
         footer#footer.footer
             .container

@@ -15,10 +15,9 @@ html {
   font-style: normal;
   font-weight: normal;
   -webkit-animation: bugfix infinite 1s;
-  line-height: 160%;
+
   margin: 0;
   padding: 0;
-
   scroll-behavior: smooth;
 }
 
@@ -26,10 +25,10 @@ body {
   font-style: normal;
   font-weight: normal;
   -webkit-animation: bugfix infinite 1s;
-  line-height: 1.2;
+  line-height: 160%;
   margin: 0;
   padding: 0;
-  color: #282828;
+  color: $color-dark-l;
   background-color: #fff;
   font-size: 1.5rem;
 
@@ -93,6 +92,7 @@ h5,
 h6 {
   font-family: 'Georgia',sans-serif;
   line-height: 130%;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
@@ -137,9 +137,10 @@ ul li {
 }
 
 .container {
-  width: 140rem;
+  max-width: 100%;
+  width: 120rem;
   margin: 0 auto;
-  padding: 0 5rem;
+  padding: 0 4rem;
 }
 
 
@@ -148,12 +149,12 @@ ul li {
 // *********************************************************************************************
 
 
-@media (max-width: 48em) { //768
+@media (max-width: 75em) { //768
   html {
-    font-size: 1.1042vw;
+    //font-size: 1.1042vw;
     // font-size: 5/(320/100); // где 320 это ширина моб версии макета
     // font-size: 5/(480/100); // где 480 это ширина моб версии макета
-    -webkit-text-size-adjust: none;
+    //-webkit-text-size-adjust: none;
   }
 
   body {
@@ -161,7 +162,7 @@ ul li {
   }
 
   .container {
-    padding: 0 3.2rem;
+    //padding: 0 3.2rem;
     width: 100%;
   }
 }
