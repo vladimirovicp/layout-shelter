@@ -9,13 +9,13 @@
 }
 
 html {
-  font-family: 'Georgia', sans-serif; // шрифт по умолчанию по сайту
+  font-family: 'Arial', sans-serif;
   font-size: 0.8333vw; // 10 /(1200 / 100)
 
   font-style: normal;
   font-weight: normal;
   -webkit-animation: bugfix infinite 1s;
-  line-height: 1.2;
+  line-height: 160%;
   margin: 0;
   padding: 0;
 
@@ -31,6 +31,7 @@ body {
   padding: 0;
   color: #282828;
   background-color: #fff;
+  font-size: 1.5rem;
 
   &._lock{
     overflow: hidden;
@@ -90,9 +91,18 @@ h3,
 h4,
 h5,
 h6 {
-  font: inherit;
+  font-family: 'Georgia',sans-serif;
+  line-height: 130%;
   margin: 0;
   padding: 0;
+}
+
+h2{
+  font-size: 4.4rem;
+}
+
+h3{
+  font-size: 3.5rem;
 }
 
 p {
@@ -156,7 +166,7 @@ ul li {
   }
 }
 
-@media (min-width: 87.5em) {
+@media (min-width: 75em) {
   html {
     font-size: 10px;
   }

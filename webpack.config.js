@@ -10,7 +10,11 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'index.[contenthash].js',
-        assetModuleFilename: path.join('images', '[name].[contenthash][ext]'),
+        //assetModuleFilename: path.join('images', '[name].[contenthash][ext]'),
+        assetModuleFilename: pathData => {
+            const filepath = path.dirname(pathData.filename).split('/').slice(1).join('/');
+            return `${filepath}/[name][ext]`;
+        },
     },
     module: {
         rules: [
@@ -35,6 +39,10 @@ module.exports = {
             {
                 test: /\.(png|jpg|jpeg|gif)$/i,
                 type: 'asset/resource',
+                // loader: 'file-loader',
+                // options: {
+                //     name: '[path][name].[ext]',
+                // },
             },
             {
                 test: /\.svg$/,

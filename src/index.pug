@@ -64,16 +64,16 @@ html(lang= 'ru')
         title= 'Shelter'
     body
         header.header
-            .container
+            .container.header__items
                 .header__item
                     h1
-                        a(class="logo" href="#") Cozy House
-                    .logo-slogan Shelter for pets in Boston
+                        a(class="header__logo" href="#") Cozy House
+                    .header__slogan Shelter for pets in Boston
                 .header__item
                     nav.main-menu
                         .burger
                             span
-                        ul .main-menu__list
+                        ul.main-menu__list
                             each item in mainMenu
                                 li.main-menu__item
                                     a(href=item.link class="burger-link nav-link active") !{item.text}
