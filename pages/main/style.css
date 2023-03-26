@@ -162,8 +162,8 @@ button:hover {
 }
 
 #header{
-    height: 180px;
-    padding: 60px 0;
+    /*height: 180px;*/
+    padding: 30px 0;
 
     background: rgb(68,54,45);
     background: linear-gradient(90deg, rgba(68,54,45,1) 0%, rgba(52,44,40,1) 47%, rgba(34,32,33,1) 100%);
@@ -171,6 +171,7 @@ button:hover {
 
 #header .container{
     display: flex;
+    height: 60px;
 }
 
 .nav{
@@ -363,12 +364,14 @@ button:hover {
     letter-spacing: 0.06em;
 }
 
+
+
 .our-friends_block-button{
     display: flex;
     justify-content: center;
 }
 
-.our-friends_block-button button{
+.our-friends_block-button .button{
     min-width: 260px;
 }
 
@@ -455,22 +458,26 @@ button:hover {
 
 #help .title{
     font-size: var(--size3);
+    letter-spacing: 0.06em;
+    line-height: 115%;
 }
-
 
 #in-addition{
     background-color: var(--color-light-l);
 }
+
+
 
 #in-addition h3{
     margin-top: 0;
     margin-bottom: 20px;
 }
 #in-addition .text{
-
     font-size: var(--size1);
     color: var(--color-dark-m);
     margin-top: 20px;
+    line-height: 18px;
+
 }
 
 .credit-card{
@@ -481,6 +488,7 @@ button:hover {
     position: relative;
     display: block;
     color: var(--color2);
+    letter-spacing: 0.06em;
 }
 
 .credit-card::before{
@@ -518,12 +526,12 @@ button:hover {
     color: var(--color1);
     line-height: var(--line-height1);
     padding-bottom: 40px;
-    
+    letter-spacing: 0.06em;
 }
 
 #footer .item{
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-top: 56px;
+    padding-bottom: 20px;
     width: 302px;
 }
 
@@ -532,9 +540,10 @@ button:hover {
     font-size: var(--size3);
     height: auto;
     width: auto;
-    margin: 0 auto 30px;
+    margin: 0 auto 38px;
     background-repeat: no-repeat;
     padding-left: 60px;
+    letter-spacing: 0.06em;
 }
 
 .mail{
@@ -559,6 +568,7 @@ button:hover {
 .item-photo{
     display: flex;
     align-items: end;
+    margin-left: auto;
 }
 
 .footer-photo{
