@@ -1,0 +1,72 @@
+
+#header{
+    background: none;
+}
+
+
+ a {
+    color: var(--color2);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.page-our-pets .logo{
+    color: #000;
+    font-size: 32px;
+}
+
+.page-our-pets .logo-slogan{
+    color: #000;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.pagination li{
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.pagination li span{
+    display: flex;
+    align-items: center;
+    font-size: var(--size3);
+    justify-content: center;
+}
+
+.pagination li.active,
+.pagination li:hover{
+    background-color: var(--color-primary);
+}
+
+.pagination li.noactive,
+.pagination li.noactive:hover{
+    background-color: transparent;
+    color: var(--color-dark-s);
+    border: 1px solid var(--color-dark-s);
+    cursor: default;
+}
+
+
+
+.round{
+    width: 52px;
+    height: 52px;
+    border: 1px solid var(--color-primary);
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+}
+
+h2{
+    font-size: 22px;
+}
