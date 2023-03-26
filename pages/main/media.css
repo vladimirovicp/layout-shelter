@@ -369,7 +369,7 @@
 
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
     :root {
         --size6: 44px;
     }
@@ -379,7 +379,7 @@
     }
 
     #not-only .container{
-        height: calc(100vh - 180px);
+        height: 788px;
         display: flex;
         /*align-items: center;*/
         /*padding-top: 100px;*/
@@ -391,16 +391,16 @@
 
     #not-only .info{
         width: 460px;
-        padding-top: 160px;
+        padding-top: 192px;
     }
 
     .about-left,
     .about-right{
-        width: 430px;
+        max-width: 430px;
     }
 
+
     .about-right h3{
-        padding: 0 80px 0 0;
     }
 
 
@@ -417,13 +417,61 @@
     }
 
     #help .flex-wrap{
-        gap: 120px;
-        margin-bottom: 55px;
-        justify-content: space-around;
-    }
-    .left-arrow,
-    .right-arrow{
-        top: 165.5px;
+
+
 
     }
+
+    .help__title{
+        padding-bottom: 60px;
+    }
+
+    .help__wrap{
+        gap: 55px 120px;
+        width: 1032px;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        margin-bottom: 55px;
+    }
+
+    .left-arrow,
+    .right-arrow{
+        top: 250px;
+
+    }
+
+    .in-addition{
+        padding: 25px 0 102px;
+    }
+
+    .in-addition p{
+        line-height: 110%;
+        letter-spacing: 0.06em;
+        margin: 16px 0 18px;
+    }
+
+    .in-addition__wrapper{
+        gap: 28px;
+    }
+
+    .footer__wrap{
+        justify-content: flex-start;
+        gap: 138px;
+    }
+
+    .footer__item_address{
+
+    }
+
+    #footer .footer__item_address .title{
+        padding-bottom: 32px;
+    }
+
+    #footer .address .ico{
+        min-height: 32px;
+        margin-bottom: 38px;
+        line-height: 115%;
+    }
+
+
 }

@@ -22,11 +22,13 @@
 .pagination{
     display: flex;
     justify-content: center;
+    padding-top: 42px;
 }
 
 .pagination ul{
     display: flex;
     list-style: none;
+    padding: 0;
 
 }
 
