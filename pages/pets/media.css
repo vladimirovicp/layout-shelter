@@ -109,9 +109,28 @@
 
 }
 
-@media (min-width: 1280px){
+@media (min-width: 1200px){
     h2 {
         font-size: 35px;
+    }
+
+    .footer__wrap{
+        justify-content: flex-start;
+        gap: 138px;
+    }
+
+    .footer__item_address{
+
+    }
+
+    #footer .footer__item_address .title{
+        padding-bottom: 32px;
+    }
+
+    #footer .address .ico{
+        min-height: 32px;
+        margin-bottom: 38px;
+        line-height: 115%;
     }
 
 }

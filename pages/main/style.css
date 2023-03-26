@@ -306,8 +306,20 @@ button:hover {
 
 
 #our-friends{
-    padding-top: 68px;
+    padding-top: 80px;
+    padding-bottom: 86px;
     background-color: var(--color-light-l);
+
+}
+
+#our-friends h2{
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    /*padding-bottom: 58px;*/
+}
+
+.our-friends__wrap{
+
 }
 
 /*#our-friends .flex-wrap{*/
@@ -317,7 +329,7 @@ button:hover {
 .our-friends__wrap{
     position: relative;
     padding-top: 60px;
-    gap: 90px;
+    gap: 30px 40px;
 }
 
 
