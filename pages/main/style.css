@@ -144,6 +144,16 @@ button:hover {
     background-color: var(--color4);
 }
 
+/*.btn{*/
+/*    background-color: transparent;*/
+/*    border: 2px solid var(--color-primary);*/
+/*    width: 187px;*/
+/*    height: 52px;*/
+/*    font-size: 17px;*/
+/*    line-height: 130%;*/
+/*    letter-spacing: 0.06em;*/
+/*}*/
+
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -267,12 +277,7 @@ button:hover {
 #about{
 }
 
-.about__wrap{
-    display: flex;
-    width: 850px;
-    margin: 0 auto;
-    gap: 120px;
-}
+
 
 .about-left,
 .about-right{
@@ -318,6 +323,10 @@ button:hover {
     /*padding-bottom: 58px;*/
 }
 
+.our-friends h3 span{
+    display: block;
+}
+
 .our-friends__wrap{
 
 }
@@ -359,16 +368,31 @@ button:hover {
     background-color: var(--color-primary);
 }
 
+#our-friends .our-friends_link:hover .button{
+    background-color: var(--color-primary);
+}
+
 #our-friends .title{
     /*margin: 30px 0;*/
     font-size: var(--size3);
     color: var(--color2);
 }
 
+
+
 #our-friends .item button{
     background-color: transparent;
     border: 2px solid var(--color-primary);
+    width: 187px;
+    height: 52px;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
 
+#our-friends .item .button{
+    background-color: transparent;
+    border: 2px solid var(--color-primary);
     width: 187px;
     height: 52px;
     font-size: 17px;
@@ -472,6 +496,10 @@ button:hover {
     font-size: var(--size3);
     letter-spacing: 0.06em;
     line-height: 115%;
+}
+
+.help h3 span{
+    display: block;
 }
 
 #in-addition{
