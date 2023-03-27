@@ -137,6 +137,8 @@
             margin: 0 auto;
         }
 
+
+
         .about-lright h3{
             text-align: center;
         }
@@ -392,6 +394,13 @@
     #not-only .info{
         width: 460px;
         padding-top: 192px;
+    }
+
+    .about__wrap{
+        display: flex;
+        width: 850px;
+        margin: 0 auto;
+        gap: 120px;
     }
 
     .about-left,
