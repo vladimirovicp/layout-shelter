@@ -313,10 +313,16 @@ button:hover {
 
 #our-friends{
     padding-top: 80px;
-    padding-bottom: 85px;
+    padding-bottom: 100px;
     background-color: var(--color-light-l);
 
 }
+
+.page-our-pets #our-friends{
+    padding-bottom: 85px;
+}
+
+
 
 #our-friends h2{
     line-height: 130%;
@@ -339,6 +345,10 @@ button:hover {
 .our-friends__wrap{
     position: relative;
     padding-top: 60px;
+    gap: 30px 90px;
+}
+
+.page-our-pets .our-friends__wrap{
     gap: 30px 40px;
 }
 
