@@ -275,6 +275,7 @@ button:hover {
 }
 
 #about{
+    padding-bottom: 90px;
 }
 
 
@@ -312,7 +313,7 @@ button:hover {
 
 #our-friends{
     padding-top: 80px;
-    padding-bottom: 86px;
+    padding-bottom: 100px;
     background-color: var(--color-light-l);
 
 }
@@ -338,7 +339,7 @@ button:hover {
 .our-friends__wrap{
     position: relative;
     padding-top: 60px;
-    gap: 30px 40px;
+    gap: 30px 90px;
 }
 
 
