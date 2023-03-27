@@ -318,6 +318,12 @@ button:hover {
 
 }
 
+.page-our-pets #our-friends{
+    padding-bottom: 85px;
+}
+
+
+
 #our-friends h2{
     line-height: 130%;
     letter-spacing: 0.06em;
@@ -340,6 +346,10 @@ button:hover {
     position: relative;
     padding-top: 60px;
     gap: 30px 90px;
+}
+
+.page-our-pets .our-friends__wrap{
+    gap: 30px 40px;
 }
 
 
