@@ -352,6 +352,35 @@ button:hover {
     gap: 30px 40px;
 }
 
+.carousel-wrapper{
+    width: 990px;
+    margin: 0 20px;
+    overflow: hidden;
+}
+
+.carousel{
+    display: flex;
+    gap: 90px;
+
+    position: relative;
+    left: 0;
+
+}
+
+
+@keyframes move-right {
+    from {left: -660px;}
+    to {left: -1320px;}
+}
+
+.transition-right {
+    animation-name: move-right;
+    animation-duration: 5s;
+}
+
+
+
+
 
 
 #our-friends .item{
