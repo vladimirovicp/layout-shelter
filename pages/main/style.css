@@ -369,8 +369,8 @@ button:hover {
 
 
 @keyframes move-right {
-    from {left: -660px;}
-    to {left: -1320px;}
+    from {left: 0px;}
+    to {left: -990px;}
 }
 
 .transition-right {

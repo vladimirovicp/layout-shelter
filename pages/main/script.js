@@ -8,6 +8,18 @@ if (ourFriends){
     const rightArrow = ourFriends.querySelector(".right-arrow");
 
 
+    const moveLeft = () => {
+        console.log('123')
+        carousel.classList.add("transition-right");
+    }
+
+
+
+    leftArrow.addEventListener('click', moveLeft);
+
+
+
+
 
 
 
